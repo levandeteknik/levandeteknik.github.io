@@ -1,0 +1,38 @@
+:root {
+    --yellow: #F7DB05;
+}
+
+@font-face {
+    font-family: BosisRegular;
+    src: url(Bosis\ Regular.otf);
+}
+
+body {
+    font-family: BosisRegular;
+    font-size: 20px;
+    line-height: 26px;
+    background: white url(logo.png) 62px 65px no-repeat;
+    background-size: 500px;
+}
+
+#layout {
+    max-width: 500px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+h1 {
+    display: none;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: var(--yellow);
+}
